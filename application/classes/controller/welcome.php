@@ -4,7 +4,7 @@ class Controller_Welcome extends Controller {
 
 	public function action_index()
 	{
-		$this->response->body('hello, world! Running on orchesta.io');
+		$this->response->body('hello, kohana! Running on orchesta.io');
 	}
 
 } // End Welcome
